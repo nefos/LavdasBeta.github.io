@@ -1,0 +1,144 @@
+.bookBody {
+	background:transparent;
+	padding:5%;
+}
+
+.book {
+	width:70%;
+	height:80vh;
+	margin:auto auto;
+	box-shadow: 5px 5px 5px black;
+}
+
+.pages {
+	width:100%;
+	height:100%;
+	position:relative;
+	perspective:1500px;
+	perspective-origin: 50% 50%;
+}
+
+.page {
+	width:50%;
+	height:100%;
+	position:absolute;
+	transition:all 2s ease-out;
+	transform-style: preserve-3d;
+	background:url('../assets/catalogueBG.png');
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+}
+
+.page img {
+	width:100%;
+	height:100%;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+
+.pages > div:nth-child(even) {
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5) inset;
+	border-left:1px solid rgba(0, 0, 0, 0.5);
+	transform-origin: center left;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	backface-visibility:hidden;
+	left:50%;
+}
+
+.pages > div:nth-child(odd) {
+	box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.5) inset;
+	border-right:1px solid rgba(0, 0, 0, 0.5);
+	transform-origin: center right;
+	backface-visibility:hidden;
+	transform: rotateY(180deg);
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.turnedOdd {
+	transform: rotateY(0) !important;
+}
+
+.turnedEven {
+	transform: rotateY(-180deg) !important;
+}
+
+.bookButtons {
+	display:block;
+	width:30%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.nextButton {
+	display:inline-block;
+	margin-top:5%;
+	width:40%;
+	background:black;
+	padding:2% 5%;
+	text-align:center;
+	color:white;
+	font-size:1vw;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+	transition:all 0.5s ease-out;
+}
+
+.previousButton  {
+	display:inline-block;
+	margin-top:5%;
+	width:40%;
+	background:black;
+	padding:2% 5%;
+	text-align:center;
+	color:white;
+	font-size:1vw;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+	transition:all 2s ease-out;
+}
+
+.productCatalogue {
+	width:100%;
+	height:30%;
+	margin:auto auto;
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+}
+
+.productCatalogueImg { 
+	width:40%;
+	margin:0 auto;
+}
+
+.productCatalogueImg img{ 
+	width:90%;
+}
+
+.productCatalogueText {
+	width:50%;
+	margin:0 auto;
+}
+
+.productCatalogueTextTitle {
+	display:block;
+	font-size:1.2vw;
+	color:#8ac24c;
+	font-weight:bold;
+}
+
+.productCatalogueTextEtc {
+	display:block;
+	font-size:0.7vw;
+	color:white;
+	font-weight:bold;
+}
+
+.productCatalogueSeperateLine {
+	border-bottom:0.5px solid #8ac24c;
+}

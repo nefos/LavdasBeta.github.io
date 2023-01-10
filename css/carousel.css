@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'FontThin';
+  src: url('../fonts/Raleway-Thin.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'FontFat';
+  src: url('../fonts/Raleway-ExtraBold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'brusher';
+  src: url('../fonts/Brusher.ttf'); /* IE9 Compat Modes */
+}
+
+
+.carouselCustom {
+	display:block;
+	position:relative;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.carouselItem {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.activateItem {
+	display:block;
+}
+
+.carouselItem img {
+	width:100vw;
+	height:100vh;
+	position:relative;
+}
+
+.carouselItem .overlay {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.2);
+	background-image: radial-gradient(black 30%, transparent 30%);
+	background-size: 3px 3px;
+}
+
+.carouselItem img {
+	animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-fill-mode: none;
+    -webkit-animation-fill-mode: none;
+    animation-name: zoomOut;
+    -webkit-animation-name: zoomOut;
+}
+
+.firstOption, .secondOption, .thirdOption {
+	animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-fill-mode: none;
+    -webkit-animation-fill-mode: none;
+    animation-name: zoomOutt;
+    -webkit-animation-name: zoomOutt;
+	}
+@keyframes zoomOut {
+	 0%   {opacity:0.2;scale:2}
+  100% {opacity: 1;scale:1;}
+}
+@keyframes zoomOutt {
+	 0%   {opacity:0.2}
+  100% {opacity: 1}
+}
+
+.carouselButtons {
+	position:absolute;
+	top:48%;
+	right:1%;
+}
+
+.carouselButton {
+	display:block;
+	width:5px;
+	height:5px;
+	border:1px solid white;
+	padding:5px;
+	border-radius:500px;
+	margin-top:5px;
+	transition:all 0.4s ease-in;
+	text-align:right;
+	margin-left:auto;
+	cursor:pointer;
+}
+
+.carouselButton:hover {
+	display:block;
+	background:white;
+	width:5px;
+	height:5px;
+	border:1px solid white;
+	padding:5px;
+	padding-left:20px;
+	border-radius:500px;
+	margin-top:5px;
+	transition:all 0.4s ease-out;
+}
+
+.activeCarouselItem {
+	display:block;
+	background:white;
+	width:5px;
+	height:5px;
+	border:1px solid white;
+	padding:5px;
+	padding-left:20px;
+	border-radius:500px;
+	margin-top:5px;
+	transition:all 0.4s ease-out;
+}
+
+/* TEXT CAROUSEL OPTIONS STYLE */
+
+.carouselHeader {
+	position:absolute;
+	width:50%;
+	left:25%;
+	top:35%;
+	font-family: Raleway,sans-serif;
+}
+
+	/*First Option*/
+.firstOption .titleCarousel {
+	font-size:2vw;
+	text-align:left;
+	color:white;
+	display:block;
+	margin-bottom:1%;
+	font-family: 'FontThin';
+}
+
+.firstOption .descriptionCarousel {
+	font-size:4vw;
+	text-align:left;
+	font-weight:bold;
+	color:white;
+	display:block;
+	font-family: 'FontFat';
+}
+
+.firstOption .textCarousel {
+	font-size:1vw;
+	text-align:center;
+	color:white;
+	display:block;
+}
+
+.firstOption .buttonCarousel {
+	font-size:1vw;
+	text-align:center;
+	color:white;
+	display:block;
+	margin-top:8%;
+	margin-left:auto;
+	margin-right:auto;
+	width:25%;
+	padding:2% 5%;
+	border:2px solid #8ac24c;
+	border-radius:255px;
+	transition:all 0.5s ease-out;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:1vw;
+	
+}
+
+.firstOption .buttonCarousel:hover {
+background:#8ac24c
+}
+
+.firstOption .videoButton {
+	display:none;
+}
+	/*End of First Option*/
+	
+	/*Second Option*/
+.secondOption {
+	width:70% !important;
+	left:15% !important;
+}
+.secondOption .titleCarousel {
+	font-size:2vw;
+	text-align:left;
+	font-weight:bold;
+	color:white;
+	display:block;
+	font-family: 'FontFat';
+	width:40%;
+}
+
+.secondOption .descriptionCarousel {
+	font-size:2vw;
+	text-align:left;
+	color:white;
+	display:block;
+	margin-bottom:1%;
+	font-weight: 100;
+	font-family: 'FontThin';
+	width:40%;
+}
+
+.secondOption .textCarousel {
+	font-size:1vw;
+	text-align:left;
+	color:white;
+	display:block;
+	width:40%;
+}
+
+.secondOption .buttonCarousel {
+	font-size:1vw;
+	text-align:center;
+	color:white;
+	display:block;
+	margin-top:2%;
+	width:15%;
+	padding:1% 2%;
+	border:2px solid #8ac24c;
+	border-radius:255px;
+	transition:all 0.5s ease-out;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:1vw;
+}
+.secondOption .buttonCarousel:hover {
+background:#8ac24c
+}
+
+.secondOption .videoButton {
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	text-align:center;
+	line-height:150px;
+	float:right;
+	margin-bottom:50%;
+	position:absolute;
+	top:35%;
+	right:5%;
+	cursor:pointer;
+	border:1px solid white;
+}
+
+.secondOption .videoButton i{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:#8ac24c;
+	text-align:center;
+	line-height:100px;
+	cursor:pointer;
+}
+.secondOption .videoButton i {
+	vertical-align:middle;
+	box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+	animation: pulse-white 2s infinite;
+}
+
+@keyframes pulse-white {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  
+  70% {
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+  }
+  
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+	/*End of Second Option*/
+	
+	/*Third Option*/
+.thirdOption .titleCarousel {
+	font-size:2vw;
+	text-align:center;
+	color:white;
+	display:block;
+	margin-bottom:1%;
+	font-family: 'FontThin';
+}
+
+.thirdOption .descriptionCarousel {
+	font-size:4vw;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	display:block;
+	font-family: 'brusher';
+	background: -webkit-linear-gradient(190deg, #8ac24c 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thirdOption .textCarousel {
+	display:none;
+}
+
+.thirdOption .buttonCarousel {
+	font-size:1vw;
+	text-align:center;
+	color:white;
+	display:block;
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	width:25%;
+	padding:2% 5%;
+	border:2px solid #8ac24c;
+	border-radius:255px;
+	transition:all 0.5s ease-out;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:1vw;
+	
+}
+
+.thirdOption .buttonCarousel:hover {
+background:#8ac24c;
+}
+
+.thirdOption .videoButton {
+	display:none;
+}
+	/*End of Third Option*/
+
+/* END OF TEXT CAROUSEL OPTIONS STYLE */

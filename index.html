@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="description" content="Lavdas Food Service"/>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+		<title></title>
+		<script src="https://kit.fontawesome.com/d91a72a614.js" crossorigin="anonymous"></script>
+		<!--Bootstrap-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<link href="http://fonts.cdnfonts.com/css/greek" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/carousel.css" />
+		<link rel="stylesheet" href="css/book.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+		<!--<link rel="stylesheet" href=
+			"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+		<script src="https://use.fontawesome.com/48d96483b6.js"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="openBook" class="openBook"><div onclick="closeBook();" class="closeModalButton">CLOSE</div><div class="modalContent"><iframe
+			src="book.html"
+			name="targetframe"
+			allowTransparency="true"
+			scrolling="no"
+			frameborder="0"
+			>
+			</iframe></div></div>
+			<nav class="navbar navbar-expand-lg bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"><img src="assets/logo.jpg" class="img-fluid" alt="..."></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+							<li class="nav-item">
+								<a class="nav-link" href="#">ΑΡΧΙΚΗ</a>
+								<div class="underlineBorder"></div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+									ΠΡΟΪΟΝΤΑ
+								</a>
+								<div class="underlineBorder"></div>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item dropdown-toggle" href="#">ΚΟΚΚΙΝΟ ΚΡΕΑΣ</a><div class="underlineBorder2"></div>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item" onclick="openBook();" href="#">ΧΟΙΡΙΝΟ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΜΟΣΧΑΡΙ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΑΡΝΙ-ΠΡΟΒΑΤΟ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item dropdown-toggle" href="#">ΚΟΤΟΠΟΥΛΟ</a><div class="underlineBorder2"></div>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item" href="#">ΝΩΠΟ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΠΑΝΑΡΙΣΜΕΝΟ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">ΚΡΕΑΤΟΣΚΕΥΑΣΜΑΤΑ</a><div class="underlineBorder2"></div></li>
+									<li><a class="dropdown-item dropdown-toggle" href="#">ΑΛΛΑΝΤΙΚΑ</a><div class="underlineBorder2"></div>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item" href="#">ΝΙΚΑΣ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΘΡΑΚΗΣ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item" href="#"><span class="dropdown-toggle">ΠΑΤΑΤΕΣ</span><div class="underlineBorder2"></div></a>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item subItem" href="#">MYDIBEL</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item subItem" href="#">LAMBWESTON</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item subItem" href="#">ΦΡΕΣΚΙΑ ΠΑΤΑΤΑ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">ΛΑΔΙΑ</a><div class="underlineBorder2"></div></li>
+									<li><a class="dropdown-item dropdown-toggle" href="#">ΣΑΛΤΣΕΣ - ΣΑΛΑΤΕΣ</a><div class="underlineBorder2"></div>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item" href="#">PICCANTA</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΑΘΗΝΑΙΑ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΑΛΦΑ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">ΓΑΛΑΚΤΟΚΟΜΙΚΑ</a><div class="underlineBorder2"></div></li>
+									<li><a class="dropdown-item" href="#">ΜΠΑΚΑΛΙΚΗ</a><div class="underlineBorder2"></div></li>
+									<li><a class="dropdown-item" href="#">ΨΩΜΙΑ - ΠΙΤΕΣ</a><div class="underlineBorder2"></div></li>
+									<li><a class="dropdown-item dropdown-toggle" href="#">ΖΩΟΤΡΟΦΕΣ</a><div class="underlineBorder2"></div>
+										<ul class="dropdown-menu-sub">
+											<li><a class="dropdown-item" href="#">ΣΚΥΛΟΣ</a><div class="underlineBorder3"></div></li>
+											<li><a class="dropdown-item" href="#">ΓΑΤΑ</a><div class="underlineBorder3"></div></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">BLOG</a>
+								<div class="underlineBorder"></div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="aboutus.html">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a>
+								<div class="underlineBorder"></div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+								<div class="underlineBorder"></div>
+							</li>
+							<li class="nav-item getInTouch">
+								<a class="nav-link" href="#">GET IN TOUCH</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="carouselCustom" id="carouselCustom">
+				<div id="carousel1" class="carouselItem activateItem">
+					<img src="assets/carousel1.jpg" />
+					<div class="overlay"></div>
+					<div class="carouselHeader firstOption">
+						<div class="titleCarousel">Lavdas Food Service</div>
+						<div class="descriptionCarousel">THIS IS OUR FARM</div>
+						<div class="textCarousel">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</div>
+						<div class="buttonCarousel">ΠΕΡΙΣΣΟΤΕΡΑ</div>
+						<div class="videoButton"></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div id="carousel2" class="carouselItem">
+					<img src="assets/carousel2.jpg" />
+					<div class="overlay"></div>
+					<div class="carouselHeader secondOption">
+						<div class="titleCarousel">Lavdas Food Service</div>
+						<div class="descriptionCarousel">THIS IS OUR FARM</div>
+						<div class="textCarousel">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</div>
+						<div class="buttonCarousel">ΠΕΡΙΣΣΟΤΕΡΑ</div>
+						<div class="videoButton"><i class="fa-solid fa-play"></i></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="carouselItem">
+					<img src="assets/carousel3.jpg" />
+					<div class="overlay"></div>
+					<div class="carouselHeader thirdOption">
+						<div class="titleCarousel">Lavdas Food Service</div>
+						<div class="descriptionCarousel">THIS IS OUR FARM</div>
+						<div class="textCarousel">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</div>
+						<div class="buttonCarousel">ΠΕΡΙΣΣΟΤΕΡΑ</div>
+						<div class="videoButton"></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div id="carouselButtons" class="carouselButtons">
+					<div id="carouselButton" class="carouselButton activeCarouselItem"></div>
+					<div id="carouselButton" class="carouselButton"></div>
+					<div id="carouselButton" class="carouselButton"></div>
+				</div>
+			</div>
+			<div class="specialProducts">
+				<div class="specialProductsTitle">
+					<span class="specialProductsTitleFirst">SPECIAL </span><span class="specialProductsTitleSecond">PRODUCTS</span>
+				</div>
+				<div class="specialProductsLogo">
+					<img src="assets/nitsiakos-logo.jpg" />
+				</div>
+				<div class="specialProductsWords">
+					Η Νιτσιάκος έχει υιοθετήσει αυστηρές διαδικασίες και συστηματικούς ελέγχους που να εξασφαλίζουν στον επαγγελματία και τον καταναλωτή ασφαλή και ποιοτικά προϊόντα.
+				</div>
+				<div class="specialProductsProducts">
+					<div class="specialProductsProduct">
+						<img src="assets/chicken.png" />
+						<span>ΚΟΤΟΠΟΥΛΟ</span>
+						<div class="clear"></div>
+					</div>
+					<div class="specialProductsProduct">
+						<img src="assets/sheep.png" />
+						<span>ΑΡΝΙ</span>
+						<div class="clear"></div>
+					</div>
+					<div class="specialProductsProduct">
+						<img src="assets/cow.png" />
+						<span>ΜΟΣΧΑΡΙ</span>
+						<div class="clear"></div>
+					</div>
+					<div class="specialProductsProduct">
+						<img src="assets/pork.png" />
+						<span>ΧΟΙΡΙΝΟ</span>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="textBg">
+				<div class="textBgS">
+					LAVDAS FOOD SERVICE<br>SINCE 1976
+				</div>
+			</div>
+			<div class="aboutUs">
+				<div class="leftSection">
+					<div class="leftSectionTitle">
+						<span class="leftSectionTitleFirstSpan">
+							ABOUT US
+						</span><br>
+						<span class="leftSectionTitleSecondSpan">
+							LAVDAS FOOD SERVICE
+						</span>
+					</div>
+					<div class="leftSectionButton">
+						MORE ABOUT US
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="centerSection">
+					<img src="assets/potatoes.png" />
+				</div>
+				<div class="rightSection">
+					Γυρνώντας το χρόνο πίσω στο 1976, ο Παναγιώτης Λάβδας, καταγόμενος από αγροτική οικογένεια, αποφασίζει να ασχοληθεί με μια καινοτόμα για την εποχή δραστηριότητα, τη καλλιέργεια και εμπορία πατάτας, η οποία όμως φτάνει στα καταστήματα αποφλοιωμένη και τεμαχισμένη, έτοιμη για τηγάνισμα.<br> Η κίνηση αυτή, αλλάζει σταδιακά τα δεδομένα στην αγορά καθώς η αρχική επιφυλακτικότητα δίνει τη θέση της στην πλήρη αποδοχή ενός άρτιου ποιοτικά προϊόντος.
+				</div>
+			</div>
+			<div class="ourFacilities">
+				<div class="ourFacilitiesContent">
+					<div class="clients">
+						<div class="facilitieIcon">
+							<img src="assets/human-icon.png" />
+						</div>
+						<div class="facilitieNumber">
+							<span class="facilitieNumber1">500+</span><br><span class="facilitieNumber2">ΠΕΛΑΤΕΣ</span>
+						</div>
+					</div>
+					<div class="trucks">
+						<div class="facilitieIcon">
+							<img src="assets/truck-icon.png" />
+						</div>
+						<div class="facilitieNumber">
+							<span class="facilitieNumber1">10</span><br><span class="facilitieNumber2">ΦΟΡΤΗΓΑ</span>
+						</div>
+					</div>
+					<div class="products">
+						<div class="facilitieIcon">
+							<img src="assets/bone-icon.png" />
+						</div>
+						<div class="facilitieNumber">
+							<span class="facilitieNumber1">1000+</span><br><span class="facilitieNumber2">ΠΡΟΪΟΝΤΑ</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="deliveryContent">
+				<div class="deliveryContentTitle">
+					<span class="deliveryContentTitleFirst">WE DELIVER </span><span class="deliveryContentTitleSecond">EVERYWHERE</span>
+				</div>
+				<div class="deliveryContentWords">
+					Η διανομή γίνεται σε όλη την Ελλάδα. Για τον νομό της Αττικής και στη Χαλκίδα η διανομή γίνεται με φορτηγά της εταιρείας μας, ενώ στην επαρχία και στα νησιά σε συνεργασία με μεταφορικές εταιρείες.
+				</div>
+				<div class="deliveryContentMap">
+					<img src="assets/GreeceMap.png" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="recipyContent">
+				<img src="assets/recipe.png" />
+				<div class="recipeContent">
+					<div class="recipeContentWords">
+						<span class="recipyFirstWord">Chicken Nuggets With Chilli Sauce Recipe  </span><span class="recipySecondWord">in<br>Our Blog</span>
+					</div>
+					<div class="recipeContentWordsMore">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+					</div>
+					<div class="recipeButton">
+						More Recipes
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="blogPosts">
+				<div class="blogPostsTitle">
+					<span class="blogPostsFirstWord">BLOG </span><span class="blogPostsSecondWord">POSTS</span>
+				</div>
+				<div class="blogPostsBoxes">
+					<div class="blogPost">
+						<div class="blogPostImg">
+							<img src="assets/blogpost.jpg" />
+						</div>
+						<div class="blogPostBox">
+							<div class="blogTitle">
+								Chicken Burger
+							</div>
+							<div class="blogSubTitle">
+								Lorem Ipsum is simply dummy text
+							</div>
+							<div class="blogEtc">
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+							</div>
+							<div class="blogButton">
+								READ MORE
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="blogPost">
+						<div class="blogPostImg">
+							<img src="assets/blogpost.jpg" />
+						</div>
+						<div class="blogPostBox">
+							<div class="blogTitle">
+								Chicken Burger
+							</div>
+							<div class="blogSubTitle">
+								Lorem Ipsum is simply dummy text
+							</div>
+							<div class="blogEtc">
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+							</div>
+							<div class="blogButton">
+								READ MORE
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="blogPost">
+						<div class="blogPostImg">
+							<img src="assets/blogpost.jpg" />
+						</div>
+						<div class="blogPostBox">
+							<div class="blogTitle">
+								Chicken Burger
+							</div>
+							<div class="blogSubTitle">
+								Lorem Ipsum is simply dummy text
+							</div>
+							<div class="blogEtc">
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+							</div>
+							<div class="blogButton">
+								READ MORE
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ourPartners">
+				<div class="partners">
+					<div class="partner">
+						<img src="assets/nitsiakos-logo.jpg" />
+					</div>
+					<div class="partner">
+						<img src="assets/logo.jpg" />
+					</div>
+					<div class="partner">
+						<img src="assets/nitsiakos-logo.jpg" />
+					</div>
+					<div class="partner">
+						<img src="assets/logo.jpg" />
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="formApplication">
+				<div class="formApplicationTitle"><span class="formApplicationFirstWord">GET IN </span><span class="formApplicationSecondWord">TOUCH</span></div>
+				<div class="formApplicationSubTitle">Επικοινωνήστε μαζί μας, συμπληρώνοντας τα στοιχεία σας στην παρακάτω φόρμα και εμείς θα επικοινωνήσουμε μαζί σας άμμεσα.</div>
+				<form class="formFirstPage">
+					<input type="text" id="formName" name="name" placeholder="Όνομα">
+					<input type="text" id="formCompany" name="company" placeholder="Επωνυμία Εταιρείας">
+					<input type="tel" id="formNumber" name="phonenumber" placeholder="Τηλέφωνο">
+					<input type="email" id="formMail" name="email" placeholder="Email">
+					<textarea id="formEtc" name="etc" placeholder="Σχόλια"></textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<footer>
+				<div class="footerContent">
+					<div class="logoFooter">
+						<img src="assets/logo.jpg" />
+						<div class="companyDetails">
+							<span style="font-weight:bold;">Lavdas Food Service ΜΕΠΕ</span><br>
+							<span style="font-size:0.8vw;">ΣΑΜΟΥ 88, ΑΧΑΡΝΕΣ, 136 71<br>
+							ΤΗΛ. 21 0232 0959 - ΦΑΞ. 21 0232 0829 - Email. contact@lavdasfoodservice.gr</span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="quickMenu">
+						<ul>
+							<li class="active">ΑΡΧΙΚΗ</li>
+							<li>ΠΡΟΪΟΝΤΑ</li>
+							<li>BLOG</li>
+							<li>ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</li>
+							<li>ΕΠΙΚΟΙΝΩΝΙΑ</li>
+						</ul>
+					</div>
+					<div class="usefullLinks">
+						<ul>
+							<li>ΟΡΟΙ ΧΡΗΣΗΣ</li>
+							<li>ΥΠΟΣΤΗΡΙΞΗ ΠΕΛΑΤΩΝ</li>
+							<li>ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</li>
+						</ul>
+					</div>
+					<div class="newsLetterRegister">
+						<span class="nlTitle">
+							NEWSLETTER
+						</span>
+						<form>
+							<input type="email" name="nlRegister" id="nlRegister" placeholder="Email">
+							<input type="submit" value="REGISTER">
+						</form>
+					</div>
+				</div>
+			</footer>
+			<script src="js/carousel.js"></script>
+			<script src="js/animations.js"></script>
+	</body>
+</html>																							

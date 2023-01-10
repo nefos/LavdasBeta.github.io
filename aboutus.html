@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Lavdas Food Service" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title></title>
+    <script src="https://kit.fontawesome.com/d91a72a614.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/greek" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/book.css" />
+    <link rel="stylesheet" href="css/aboutus.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+    <!--<link rel="stylesheet" href=
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <script src="https://use.fontawesome.com/48d96483b6.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>-->
+</head>
+<body>
+    <div id="openBook" class="openBook">
+        <div onclick="closeBook();" class="closeModalButton">CLOSE</div><div class="modalContent">
+            <iframe src="book.html"
+                    name="targetframe"
+                    allowTransparency="true"
+                    scrolling="no"
+                    frameborder="0">
+            </iframe>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/logo.jpg" class="img-fluid" alt="..."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ΑΡΧΙΚΗ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                            ΠΡΟΪΟΝΤΑ
+                        </a>
+                        <div class="underlineBorder"></div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΚΟΚΚΙΝΟ ΚΡΕΑΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" onclick="openBook();" href="#">ΧΟΙΡΙΝΟ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΜΟΣΧΑΡΙ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΡΝΙ-ΠΡΟΒΑΤΟ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΚΟΤΟΠΟΥΛΟ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΝΩΠΟ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΠΑΝΑΡΙΣΜΕΝΟ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΚΡΕΑΤΟΣΚΕΥΑΣΜΑΤΑ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΑΛΛΑΝΤΙΚΑ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΝΙΚΑΣ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΘΡΑΚΗΣ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><span class="dropdown-toggle">ΠΑΤΑΤΕΣ</span><div class="underlineBorder2"></div></a>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item subItem" href="#">MYDIBEL</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item subItem" href="#">LAMBWESTON</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item subItem" href="#">ΦΡΕΣΚΙΑ ΠΑΤΑΤΑ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΛΑΔΙΑ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΣΑΛΤΣΕΣ - ΣΑΛΑΤΕΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">PICCANTA</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΘΗΝΑΙΑ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΛΦΑ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΓΑΛΑΚΤΟΚΟΜΙΚΑ</a><div class="underlineBorder2"></div></li>
+                            <li><a class="dropdown-item" href="#">ΜΠΑΚΑΛΙΚΗ</a><div class="underlineBorder2"></div></li>
+                            <li><a class="dropdown-item" href="#">ΨΩΜΙΑ - ΠΙΤΕΣ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΖΩΟΤΡΟΦΕΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΣΚΥΛΟΣ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΓΑΤΑ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item getInTouch">
+                        <a class="nav-link" href="#">GET IN TOUCH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="aboutUsContent">
+        <img src="assets/aboutus.jpg" />
+        <div class="someWordsAboutUs">
+            <div class="someWordsAboutUsTitle">
+                ABOUT
+            </div>
+            <div class="someWordsAboutUsSubTitle">
+                LAVDAS FOOD SERVICE
+            </div>
+            <div class="someWordsAboutUsText">
+                Η Lavdas Food Service δραστηροποιείται στο χώρο τροφοδοσίας καταστημάτων εστίασης από το 1976 και συνεχίζει μέχρι σήμερα, στοχεύοντας σε νέες συνεργασίες που θα φέρουν νέα προϊόντα με γνώμονα πάντα την ποιότητα και την αξιοπιστία.
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div class="aboutUsContentEtc">
+        <div class="aboutUsContentEtcText">
+            <span>WHO WE ARE</span><br><br>
+            Γυρνώντας το χρόνο πίσω στο 1976, ο Παναγιώτης Λάβδας, καταγόμενος από αγροτική οικογένεια, αποφασίζει να ασχοληθεί με μια καινοτόμα για την εποχή δραστηριότητα, τη καλλιέργεια και εμπορία πατάτας, η οποία όμως φτάνει στα καταστήματα αποφλοιωμένη και τεμαχισμένη, έτοιμη για τηγάνισμα. Η κίνηση αυτή, αλλάζει σταδιακά τα δεδομένα στην αγορά καθώς η αρχική επιφυλακτικότητα δίνει τη θέση της στην πλήρη αποδοχή ενός άρτιου ποιοτικά προϊόντος.<br><br>
+
+            Η καθετοποίηση στην παραγωγή με τη καλλιέργεια της πατάτας είναι αυτή που δίνει στην επιχείρηση το συγκριτικό πλεονέκτημα της διασφάλισης της ποιότητας του τελικού προϊόντος. Γρήγορα η γκάμα διευρύνεται με την ένταξη στο portfolio του εξαιρετικά παρθένου ελαιολάδου και του γιαουρτιού.<br><br>
+
+            Το κουβάρι της εξέλιξης της επιχειρηματικής δραστηριότητας της Λάβδας Foodservice άρχισε να ξετυλίγεται με ταχύτερους ρυθμούς το 1990, όπου έκανε την εμφάνιση της στην ελληνική αγορά η τάση της προτηγανισμένης πατάτας. Ακολουθώντας τη πορεία των πραγμάτων η ατομική μέχρι τότε επιχείρηση Λάβδας Παναγιώτης, προχωράει στην εισαγωγή προτηγανισμένων από την Βέλγιο, ενώ μερικά χράνια αργότερα το 1994 συνεργάζεται με μια διεθνή εταιρεία σε αυτή την αγορα, τη McCain.<br><br>
+
+            Την επιτυχημένη συνεργασία αυτή διαδέχθηκε η συνεργασία με τη διεθνώς κορυφαία εταιρία στο εμπόριο ποιοτικής πατάτας Lambweston. Στο μεταξύ το 2000 η εταιρεία έχει αποκτήσει ιδιόκτητες εγκαταστάσεις στις Αχαρναί Αττικής ενώ εντάσσει επιπλέον κωδικούς για την εξυπηρέτηση περαιτέρω αναγκών των καταστημάτων μαζικής εστίασης. Στο πλαίσιο αυτό η εταιρεία, πιστή στην ποιοτική εξέλιξη και ανανέωση των προϊόντων της, δείχνει ενδιαφέρον στην ένταξη προϊόντων κρέατος στο προρτοφόλιό της.<br><br>
+
+            Το 2006 αποτελεί μια χρονιά ορόσημο για τη πορεία της εταιρείας καθώς εδώ γίνεται το μεγάλο άλμα και η επιχείρηση πλέον προσανατολισμένη στο εμπόριο κρέατος εισέρχεται στο χώρο αυτό επίσημα. Χοιρινό και κοτοπουλο, σε συνεργασία με την PFS, φτάνουν στο δίκτυο των πελατών της εταιρείας, το οποίο μάλιστα διευρύνεται συνεχώς.<br><br>
+
+            Το 2011 η εταιρεία μετατρέπεται σε ΕΠΕ με την ταυτόχρονη ενσωμάτωση στην παραγωγική διαδικασία μελών της οικογένειας. Το 2016 ξεκινάει η συνεργασία με την ηγέτιδα στο χώρο της πτηνοτροφίας, την εταιρεία ΝΙΤΣΙΑΚΟΣ Α.Ε.<br><br>
+
+            Μέχρι και σήμερα η διοίκηση της εταιρείας δεν εφησυχάζει, αντιθέτως επιδιώκει συνεχείς διευρύνσεις ενώ στοχεύει σε ποιοτικές και αξιόπιστες συνεργασίες. Ποιοτικά και επώνυμα προϊόντα διακινούνται μέσα απο τα κανάλια της εταιρείας δίνοντας έμφαση στην άρτια εξυπηρέτηση του τελικού καταναλωτή.<br><br>
+        </div>
+        <div class="aboutUsContentEtcIcon">
+            <img src="assets/potato.png" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="ourFacilities">
+        <div class="ourFacilitiesContent">
+            <div class="clients">
+                <div class="facilitieIcon">
+                    <img src="assets/human-icon-green.png" />
+                </div>
+                <div class="facilitieNumber">
+                    <span class="facilitieNumber1">500+</span><br><span class="facilitieNumber2">ΠΕΛΑΤΕΣ</span>
+                </div>
+            </div>
+            <div class="trucks">
+                <div class="facilitieIcon">
+                    <img src="assets/truck-icon-green.png" />
+                </div>
+                <div class="facilitieNumber">
+                    <span class="facilitieNumber1">10</span><br><span class="facilitieNumber2">ΦΟΡΤΗΓΑ</span>
+                </div>
+            </div>
+            <div class="products">
+                <div class="facilitieIcon">
+                    <img src="assets/bone-icon-green.png" />
+                </div>
+                <div class="facilitieNumber">
+                    <span class="facilitieNumber1">1000+</span><br><span class="facilitieNumber2">ΠΡΟΪΟΝΤΑ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ourtrucks"></div>
+    <section class="cd-horizontal-timeline">
+        <div class="timelineHeadTittle">ΙΣΤΟΡΙΚΗ ΑΝΑΔΡΟΜΗ</div>
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="01/01/1976" class="selected">1976</a></li>
+                        <li><a href="#0" data-date="01/01/1990">1990</a></li>
+                        <li><a href="#0" data-date="01/01/2000">2000</a></li>
+                        <li><a href="#0" data-date="01/01/2006">2006</a></li>
+                        <li><a href="#0" data-date="01/01/2026">2016</a></li>
+                    </ol>
+    
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+                
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+    
+        <div class="events-content">
+            <ol>
+                <li class="selected" data-date="01/01/1976">
+                    <div class="timelineTitle">Αρχή καλλιέργειας και εμπορίας πατάτας</div>
+                    <em>1976</em>
+                    <p>	
+                        Η κίνηση αυτή αλλάζει σταδιακά τα δεδομένα στην αγορά. Γρήγορα η γκάμα διευρύνεται με την ένταξη στο portfolio του ελαιόλαδου και του γιαουρτιού.
+                    </p>
+                </li>
+
+                <li data-date="01/01/1990">
+                    <div class="timelineTitle">Εμφάνιση της προτηγανισμένης πατάτας</div>
+                    <em>1990</em>
+                    <p>	
+                        Η Λάβδας Foodservices προχωράει στην εισαγωγή προτηγανισμένων από την Ολλανδία.
+                    </p>
+                </li>
+
+                <li data-date="01/01/2000">
+                    <div class="timelineTitle">Ιδιόκτητες εγκαταστάσεις</div>
+                    <em>2000</em>
+                    <p>	
+                        Η εταιρεία, πιστή στην ποιοτική εξέλιξη και ανανέωση των προϊόντων της, δείχνει ενδιαφέρον στην ένταξη προϊόντων κρέατος στο προρτοφόλιό της.
+                    </p>
+                </li>
+
+                <li data-date="01/01/2006">
+                    <div class="timelineTitle">Το μεγάλο άλμα</div>
+                    <em>2006</em>
+                    <p>	
+                        Χοιρινό και κοτοπουλο, σε συνεργασία με τη PFS, φτάνουν στο δίκτυο των πελατών της εταιρείας, το οποίο μάλιστα διευρύνεται συνεχώς.
+                    </p>
+                </li>
+
+                <li data-date="01/01/2026">
+                    <div class="timelineTitle">Η συνεργασία</div>
+                    <em>2016</em>
+                    <p>	
+                        Ξεκινάει η συνεργασία με την ηγέτιδα στο χώρο της πτηνοτροφίας, την εταιρεία ΝΙΤΣΙΑΚΟΣ Α.Ε.
+                    </p>
+                </li>
+    
+                
+            </ol>
+        </div> <!-- .events-content -->
+    </section>
+    <div class="formApplication">
+        <div class="formApplicationTitle"><span class="formApplicationFirstWord">GET IN </span><span class="formApplicationSecondWord">TOUCH</span></div>
+        <div class="formApplicationSubTitle">Επικοινωνήστε μαζί μας, συμπληρώνοντας τα στοιχεία σας στην παρακάτω φόρμα και εμείς θα επικοινωνήσουμε μαζί σας άμμεσα.</div>
+        <form class="formFirstPage">
+        <input type="text" id="formName" name="name" placeholder="Όνομα">
+        <input type="text" id="formCompany" name="company" placeholder="Επωνυμία Εταιρείας">
+        <input type="tel" id="formNumber" name="phonenumber" placeholder="Τηλέφωνο">
+        <input type="email" id="formMail" name="email" placeholder="Email">
+        <textarea id="formEtc" name="etc" placeholder="Σχόλια"></textarea>
+        <input type="submit" value="SEND">
+        </form>
+        </div>
+    <footer>
+        <div class="footerContent">
+            <div class="logoFooter">
+                <img src="assets/logo.jpg" />
+                <div class="companyDetails">
+                    <span style="font-weight:bold;">Lavdas Food Service ΜΕΠΕ</span><br>
+                    <span style="font-size:0.8vw;">
+                        ΣΑΜΟΥ 88, ΑΧΑΡΝΕΣ, 136 71<br>
+                        ΤΗΛ. 21 0232 0959 - ΦΑΞ. 21 0232 0829 - Email. contact@lavdasfoodservice.gr
+                    </span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="quickMenu">
+                <ul>
+                    <li>ΑΡΧΙΚΗ</li>
+                    <li>ΠΡΟΪΟΝΤΑ</li>
+                    <li>BLOG</li>
+                    <li class="active">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</liclass="active">
+                    <li>ΕΠΙΚΟΙΝΩΝΙΑ</li>
+                </ul>
+            </div>
+            <div class="usefullLinks">
+                <ul>
+                    <li>ΟΡΟΙ ΧΡΗΣΗΣ</li>
+                    <li>ΥΠΟΣΤΗΡΙΞΗ ΠΕΛΑΤΩΝ</li>
+                    <li>ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</li>
+                </ul>
+            </div>
+            <div class="newsLetterRegister">
+                <span class="nlTitle">
+                    NEWSLETTER
+                </span>
+                <form>
+                    <input type="email" name="nlRegister" id="nlRegister" placeholder="Email">
+                    <input type="submit" value="REGISTER">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/carousel.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/timeline.js"></script>
+</body>
+</html>

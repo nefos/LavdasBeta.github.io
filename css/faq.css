@@ -1,0 +1,75 @@
+.faqContent {
+    display:flex;
+    width:100%;
+    padding:5%;
+}
+
+.faqQuestions {
+    width:45%;
+    margin:0 auto;
+    display:inline-block;
+}
+
+.faqImg {
+    width:45%;
+    margin:0 auto;
+    display:inline-block;
+}
+
+.faqImg img {
+    width:100%;
+    border-radius:5px;
+}
+
+@font-face {
+    font-family: 'FontThin';
+    src: url('../fonts/Raleway-Thin.ttf'); /* IE9 Compat Modes */
+  }
+  
+  @font-face {
+    font-family: 'FontFat';
+    src: url('../fonts/Raleway-ExtraBold.ttf'); /* IE9 Compat Modes */
+  }
+  
+  @font-face {
+    font-family: 'brusher';
+    src: url('../fonts/Brusher.ttf'); /* IE9 Compat Modes */
+  }
+
+.faqQuestionsTitle {
+    font-family: "FontFat";
+    font-size:2vw;
+    display:block;
+}
+
+.faqQuestionsText {
+    font-weight: 200;
+    font-size:1vw;
+    display:block;
+}
+
+.faqQuestionsQuests {
+    display:block;
+    margin-top:2%;
+}
+
+.accordion-item {
+    border:0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color:black;
+    font-weight: bold;
+    background:0;
+    border-bottom:1px solid black;
+    outline:0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.terms {
+    padding:5%;
+    text-align:left;
+}

@@ -1,3 +1,9 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden !important;
+}
+
 @font-face {
     font-family: 'FontThin';
     src: url('../fonts/Raleway-Thin.ttf'); /* IE9 Compat Modes */
@@ -174,7 +180,7 @@ Main Components
     -moz-transition: opacity 0.2s;
     transition: opacity 0.2s;
     margin-bottom:2%;
-    padding:2% 4%;
+    padding:4% 4%;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */

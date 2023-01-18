@@ -1,0 +1,8 @@
+/* INDEX responsive */
+@media screen and (max-width: 800px) {
+    .carouselItem img {
+        max-width:100% !important;
+        height:100% !important;
+    }
+}
+/*END*/

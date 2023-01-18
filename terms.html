@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Lavdas Food Service" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title></title>
+    <script src="https://kit.fontawesome.com/d91a72a614.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/greek" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/book.css" />
+    <link rel="stylesheet" href="css/aboutus.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+    <!--<link rel="stylesheet" href=
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <script src="https://use.fontawesome.com/48d96483b6.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>-->
+</head>
+<body>
+    <div id="openBook" class="openBook">
+        <div onclick="closeBook();" class="closeModalButton">CLOSE</div><div class="modalContent">
+            <iframe src="book.html"
+                    name="targetframe"
+                    allowTransparency="true"
+                    scrolling="no"
+                    frameborder="0">
+            </iframe>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/logo.jpg" class="img-fluid" alt="..."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">ΑΡΧΙΚΗ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                            ΠΡΟΪΟΝΤΑ
+                        </a>
+                        <div class="underlineBorder"></div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΚΟΚΚΙΝΟ ΚΡΕΑΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" onclick="openBook();" href="#">ΧΟΙΡΙΝΟ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΜΟΣΧΑΡΙ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΡΝΙ-ΠΡΟΒΑΤΟ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΚΟΤΟΠΟΥΛΟ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΝΩΠΟ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΠΑΝΑΡΙΣΜΕΝΟ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΚΡΕΑΤΟΣΚΕΥΑΣΜΑΤΑ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΑΛΛΑΝΤΙΚΑ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΝΙΚΑΣ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΘΡΑΚΗΣ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><span class="dropdown-toggle">ΠΑΤΑΤΕΣ</span><div class="underlineBorder2"></div></a>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item subItem" href="#">MYDIBEL</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item subItem" href="#">LAMBWESTON</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item subItem" href="#">ΦΡΕΣΚΙΑ ΠΑΤΑΤΑ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΛΑΔΙΑ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΣΑΛΤΣΕΣ - ΣΑΛΑΤΕΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">PICCANTA</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΘΗΝΑΙΑ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΑΛΦΑ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">ΓΑΛΑΚΤΟΚΟΜΙΚΑ</a><div class="underlineBorder2"></div></li>
+                            <li><a class="dropdown-item" href="#">ΜΠΑΚΑΛΙΚΗ</a><div class="underlineBorder2"></div></li>
+                            <li><a class="dropdown-item" href="#">ΨΩΜΙΑ - ΠΙΤΕΣ</a><div class="underlineBorder2"></div></li>
+                            <li>
+                                <a class="dropdown-item dropdown-toggle" href="#">ΖΩΟΤΡΟΦΕΣ</a><div class="underlineBorder2"></div>
+                                <ul class="dropdown-menu-sub">
+                                    <li><a class="dropdown-item" href="#">ΣΚΥΛΟΣ</a><div class="underlineBorder3"></div></li>
+                                    <li><a class="dropdown-item" href="#">ΓΑΤΑ</a><div class="underlineBorder3"></div></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                        <div class="underlineBorder"></div>
+                    </li>
+                    <li class="nav-item getInTouch">
+                        <a class="nav-link" href="index.html">GET IN TOUCH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="aboutUsContent">
+        <img src="assets/faq.png" />
+        <div class="someWordsAboutUs">
+            <div class="someWordsAboutUsTitle">
+                TERMS AND CONDITIONS
+            </div>
+            <div class="someWordsAboutUsSubTitle">
+                LAVDAS FOOD SERVICE
+            </div>
+            <div class="someWordsAboutUsText">
+                Οι όροι χρήσης της εταιρείας μας.
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div class="terms">
+        Ο παρών ιστοχώρος αναγνωρίζει και σέβεται το δικαίωμα προστασίας των προσωπικών δεδομένων των χρηστών του διαδικτύου, σύμφωνα με τον Ευρωπαϊκό Κανονισμό 2016/679.Το παρόν κείμενο πολιτικής περιγράφει τη συλλογή και επεξεργασία δεδομένων των χρηστών κατά την επίσκεψη ή χρήση των παρεχόμενων υπηρεσιών του Ιστοχώρου μας. Με την επίσκεψη και πλοήγησή σας στον ιστοχώρο μας, αποδέχεστε τους όρους που περιγράφονται στην πολιτική αυτή.<br><br>
+
+Ο επισκέπτης του Ιστοχώρου μας ή/και χρήστης των υπηρεσιών μας οφείλει να διαβάσει προσεκτικά τους όρους και τις προϋποθέσεις προστασίας των προσωπικών του πληροφοριών που αναφέρονται εδώ. Ενδέχεται να προβούμε σε τροποποίηση των όρων προστασίας των προσωπικών σας δεδομένων. Για αυτό παρακαλούμε, να ελέγχετε τακτικά τους εν λόγω όρους για τυχόν αλλαγές, καθ’ όσον με την επίσκεψή σας αποδέχεστε τους παρόντες όρους και τις τροποποιήσεις τους.<br><br>
+
+<b>Υπεύθυνος επεξεργασίας</b><br><br>
+
+Υπεύθυνος επεξεργασίας είναι η εταιρεία μας, Lavdas Food Service Μ.Ε.Π.Ε., διεύθυνση έδρας Σάμμου 88, ΤΚ 13671 Αχαρναί, e-mail: contact@lavdasfoodservice.gr<br><br>
+
+<b>Τι είναι δεδομένα προσωπικού χαρακτήρα</b><br><br>
+
+Σύμφωνα με τον νόμο, είναι κάθε πληροφορία που αφορά ταυτοποιημένο ή ταυτοποιήσιμο φυσικό πρόσωπο («υποκείμενο των δεδομένων»), όπως είναι ονοματεπώνυμο, ηλεκτρονική διεύθυνση, ΑΦΜ κ.ά. Ως ταυτοποιήσιμο ορίζεται το φυσικό πρόσωπο εκείνο του οποίου η ταυτότητα μπορεί να εξακριβωθεί, άμεσα ή έμμεσα, ιδίως μέσω αναφοράς σε αναγνωριστικό στοιχείο ταυτότητας, όπως όνομα, σε αριθμό ταυτότητας, σε δεδομένα θέσης, σε επιγραμμικό αναγνωριστικό ταυτότητας (διεύθυνση ΙΡ, e-mail κλπ.) ή σε έναν ή περισσότερους παράγοντες που προσιδιάζουν στη σωματική, φυσιολογική, γενετική, ψυχολογική, οικονομική, πολιτιστική ή κοινωνική ταυτότητά του.<br><br>
+
+<b>Τι είναι επεξεργασία προσωπικών δεδομένων</b><br><br>
+
+Επεξεργασία δεδομένων προσωπικού χαρακτήρα είναι κάθε πράξη ή σειρά πράξεων που πραγματοποιείται με ή χωρίς τη χρήση αυτοματοποιημένων μέσων, σε δεδομένα προσωπικού χαρακτήρα, όπως η συλλογή, καταχώρηση, οργάνωση, διάρθρωση, αποθήκευση, προσαρμογή, μεταβολή, ανάκτηση, αναζήτηση πληροφοριών, χρήση, διαβίβαση σε τρίτους, διάδοση, συσχέτιση, συνδυασμός, περιορισμός, διαγραφή και καταστροφή προσωπικών δεδομένων.<br><br>
+
+<b>Ποια προσωπικά δεδομένα συλλέγουμε και για ποιο σκοπό</b><br><br>
+
+Κατά την επίσκεψη και πλοήγηση στον Ιστοχώρο μας συλλέγουμε τα παρακάτω προσωπικά δεδομένα:<br><br>
+
+α) δεδομένα πλοήγησης<br><br>
+
+Ο ιστοχώρος μας συγκεντρώνει στοιχεία αναγνώρισης των χρηστών του χρησιμοποιώντας τεχνολογίες, όπως τα cookies ή/και την παρακολούθηση διευθύνσεων Πρωτοκόλλου Internet (IP). Τα cookies είναι μικρά αρχεία κειμένου που αποθηκεύονται στο σκληρό δίσκο κάθε επισκέπτη/ χρήστη και δεν λαμβάνουν γνώση οποιουδήποτε εγγράφου ή αρχείου από τον υπολογιστή του. Επιπλέον, συλλέγονται αυτόματα πληροφορίες σχετικά με τις τοποθεσίες που επισκέπτεται ο επισκέπτης και σχετικά με τους συνδέσμους σε ιστοχώρους τρίτων που ενδέχεται να επιλέξει ο χρήστης. Η επεξεργασία των παραπάνω δεδομένων γίνεται με σκοπό να σας παρέχουμε απρόσκοπτη πρόσβαση στις πληροφορίες του Ιστοχώρου μας.<br><br>
+
+β) Φόρμα επικοινωνίας<br><br>
+
+Εφόσον χρησιμοποιείτε τη φόρμα επικοινωνίας μας για να επικοινωνήσετε με τον ιστοχώρο μας, συλλέγουμε το όνομά σας, τη διεύθυνση ηλεκτρονικής αλληλογραφίας σας και το τηλέφωνό σας με τη συγκατάθεσή σας, ώστε να επικοινωνήσουμε μαζί σας.<br><br>
+
+<b>Νόμιμη βάση επεξεργασίας των προσωπικών δεδομένων</b><br><br>
+
+H νόμιμη βάση επεξεργασίας των προσωπικών δεδομένων είναι η συγκατάθεση κατά την επίσκεψη της ιστοσελίδας μας.<br><br>
+
+<b>Αποδέκτες των δεδομένων</b><br><br>
+
+Τα προσωπικά δεδομένα των επισκεπτών ή/και χρηστών των υπηρεσιών του Ιστοχώρου μας δεν διαβιβάζονται σε τρίτους αποδέκτες, με εξαίρεση την περίπτωση όπου παρέχετε τη συγκατάθεσή σας για το σκοπό αυτό ή για τη θεμελίωση, άσκηση ή υποστήριξη νομικών αξιώσεων ή εάν αυτό είναι απαραίτητο για τη συμμόρφωση με έννομη υποχρέωσή μας.<br><br>
+
+<b>Χρόνος διατήρησης των δεδομένων</b><br><br>
+
+Τα προσωπικά δεδομένα που αφορούν τους επισκέπτες του Ιστοχώρου ή/και χρήστες των ηλεκτρονικών μας υπηρεσιών συλλέγονται και διατηρούνται για τον απολύτως απαραίτητο χρόνο και μετά διαγράφονται.<br><br>
+
+<b>Cookies</b><br><br>
+
+Κατά την πλοήγηση στον παρόντα ιστότοπο, όπως προαναφέρθηκε, ενδέχεται να συγκεντρώνονται στοιχεία αναγνώρισης των χρηστών με τη χρήση cookies. Η χρήση των cookies διευκολύνει τον ιστοχώρο μας να αποθηκεύει πληροφορίες σχετικά με την επίσκεψη του χρήστη, την ασφαλή αναζήτηση, τον υπολογισμό του αριθμού των επισκεπτών ή τη διευκόλυνση της εγγραφής στις  υπηρεσίες μας.<br><br>
+
+Μπορείτε να διαγράψετε τα cookies, αν το επιλέξετε. Σχετικά δείτε εδώ: www.aboutcookies.org   Μπορείτε να διαγράψετε όλα τα cookies που βρίσκονται ήδη στον υπολογιστή σας, όπως και να ρυθμίσετε τους περισσότερους browsers, ώστε που να μην επιτρέπουν την εγκατάσταση cookies. Ωστόσο, εάν επιλέξετε να διαγράψετε ή να καταργήσετε ορισμένα cookies, ενδέχεται να επηρεαστεί η λειτουργία του ιστοχώρου μας.<br><br>
+
+<b>Plug-ins μέσων κοινωνικής δικτύωσης</b><br><br>
+
+Στις ιστοσελίδες μας ενσωματώνονται διεπαφές εφαρμογών μέσω κοινωνικής δικτύωσης ή πρόσθετα (Plug-ins) υπηρεσιών κοινωνικής δικτύωσης, όπως είναι οι υπηρεσίες που παρέχουν οι εταιρίες Facebook, Twitter, Google+ κλπ. Με τα πρόσθετα αυτά μπορεί να μεταφέρονται πληροφορίες στην αντίστοιχη πλατφόρμα για εσάς, χωρίς αυτό να γίνεται άμεσα αντιληπτό. Οι πληροφορίες αυτές περιλαμβάνουν τον αριθμό ταυτοποίησης χρήση της πλατφόρμας, τις ιστοσελίδες που έχετε επισκεφθεί κλπ. Τα Plug-ins διέπονται από την πολιτική προστασίας δεδομένων της εκάστοτε υπηρεσίας κοινωνικής δικτύωσης.<br><br>
+
+<b>Ασφάλεια δεδομένων</b><br><br>
+
+Για την προστασία των προσωπικών δεδομένων των χρηστών και επισκεπτών του Ιστοχώρου μας χρησιμοποιούμε ασφαλή σύνδεση και μέτρα ασφαλείας δεδομένων για την αποτροπή του κινδύνου απώλειας, κακής χρήσης, μη εξουσιοδοτημένης πρόσβασης και κοινοποίησης των προσωπικών σας πληροφοριών.<br><br>
+
+<b>Τα δικαιώματα σας</b><br><br>
+
+Όσον αφορά την προστασία των δεδομένων προσωπικού χαρακτήρα που σας αφορούν, έχετε τα εξής δικαιώματα:<br><br>
+
+α) δικαίωμα πρόσβασης, δηλ. το δικαίωμα να πληροφορηθείτε εάν προσωπικά δεδομένα που σας αφορούν υφίστανται επεξεργασία,<br><br>
+
+β) δικαίωμα διόρθωσης, δηλ. το δικαίωμα να απαιτήσετε τη διόρθωση ανακριβών δεδομένων προσωπικού χαρακτήρα,<br><br>
+
+γ) δικαίωμα διαγραφής, δηλ. το δικαίωμα να ζητήσετε να διαγραφούν τα προσωπικά δεδομένα που σας αφορούν,<br><br>
+
+δ) δικαίωμα περιορισμού της επεξεργασίας όταν η ακρίβεια των δεδομένων αμφισβητείται, είναι παράνομη ή για άλλους λόγους<br><br>
+
+ε) δικαίωμα φορητότητας, δηλ. το δικαίωμα να ζητήσετε να λάβετε τα δεδομένα που σας αφορούν σε δομημένο, κοινώς χρησιμοποιούμενο και αναγνώσιμο από μηχανήματα μορφότυπο, καθώς και να διαβιβασθούν τα εν λόγω δεδομένα σε άλλον υπεύθυνο επεξεργασίας και<br><br>
+
+στ) δικαίωμα εναντίωσης στην επεξεργασία των προσωπικών δεδομένων σας, εκτός αν υφίστανται επιτακτικοί και νόμιμοι λόγοι για την επεξεργασία οι οποίοι υπερισχύουν των συμφερόντων, των δικαιωμάτων και των ελευθεριών σας.<br><br>
+
+Για την άσκηση των δικαιωμάτων σας, μπορείτε να μας στείλετε μήνυμα ηλεκτρονικού ταχυδρομείου στην ηλεκτρονική διεύθυνση: sofiadampali@gmail.com<br><br>
+
+<b>Δικαίωμα καταγγελίας</b><br><br>
+
+Σύμφωνα με τον Κανονισμό αριθ. 679/2016, έχετε το δικαίωμα, εάν θεωρείτε ότι παραβιάζονται τα δικαιώματά σας όσον αφορά την προστασία των προσωπικών σας δεδομένων, να υποβάλετε καταγγελία στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα, η οποία εδρεύει στην Αθήνα (Κηφισίας 1-3, Τ.Κ. 115 23) και στο τηλέφωνο 2106475600 και φαξ 2106475628 ή στη διεύθυνση ηλεκτρονικής αλληλογραφίας complaints@dpa.gr.<br><br>
+    </div>
+    <footer>
+        <div class="footerContent">
+            <div class="logoFooter">
+                <img src="assets/logo.jpg" />
+                <div class="companyDetails">
+                    <span style="font-weight:bold;">Lavdas Food Service ΜΕΠΕ</span><br>
+                    <span style="font-size:0.8vw;">
+                        ΣΑΜΟΥ 88, ΑΧΑΡΝΕΣ, 136 71<br>
+                        ΤΗΛ. 21 0232 0959 - ΦΑΞ. 21 0232 0829 - Email. contact@lavdasfoodservice.gr
+                    </span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="quickMenu">
+                <ul>
+                    <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="aboutus.html">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a></li>
+                    <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                </ul>
+            </div>
+            <div class="usefullLinks">
+                <ul>
+                    <li class="active"><a href="terms.html">ΟΡΟΙ ΧΡΗΣΗΣ</a></li>
+                    <li><a href="faq.html">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a></li>
+                </ul>
+            </div>
+            <div class="newsLetterRegister">
+                <span class="nlTitle">
+                    NEWSLETTER
+                </span>
+                <form>
+                    <input type="email" name="nlRegister" id="nlRegister" placeholder="Email">
+                    <input type="submit" value="REGISTER">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/carousel.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/timeline.js"></script>
+</body>
+</html>

@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/carousel.css" />
 		<link rel="stylesheet" href="css/book.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
 		<!--<link rel="stylesheet" href=
 			"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
@@ -54,27 +55,31 @@
 								</a>
 								<div class="underlineBorder"></div>
 								<ul class="dropdown-menu">
-									<li><a class="dropdown-item dropdown-toggle" href="#">ΚΟΚΚΙΝΟ ΚΡΕΑΣ</a><div class="underlineBorder2"></div>
+									<li>
+										<a class="dropdown-item dropdown-toggle" href="#">ΚΟΚΚΙΝΟ ΚΡΕΑΣ</a><div class="underlineBorder2"></div>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item" onclick="openBook();" href="#">ΧΟΙΡΙΝΟ</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΜΟΣΧΑΡΙ</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΑΡΝΙ-ΠΡΟΒΑΤΟ</a><div class="underlineBorder3"></div></li>
 										</ul>
 									</li>
-									<li><a class="dropdown-item dropdown-toggle" href="#">ΚΟΤΟΠΟΥΛΟ</a><div class="underlineBorder2"></div>
+									<li>
+										<a class="dropdown-item dropdown-toggle" href="#">ΚΟΤΟΠΟΥΛΟ</a><div class="underlineBorder2"></div>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item" href="#">ΝΩΠΟ</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΠΑΝΑΡΙΣΜΕΝΟ</a><div class="underlineBorder3"></div></li>
 										</ul>
 									</li>
 									<li><a class="dropdown-item" href="#">ΚΡΕΑΤΟΣΚΕΥΑΣΜΑΤΑ</a><div class="underlineBorder2"></div></li>
-									<li><a class="dropdown-item dropdown-toggle" href="#">ΑΛΛΑΝΤΙΚΑ</a><div class="underlineBorder2"></div>
+									<li>
+										<a class="dropdown-item dropdown-toggle" href="#">ΑΛΛΑΝΤΙΚΑ</a><div class="underlineBorder2"></div>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item" href="#">ΝΙΚΑΣ</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΘΡΑΚΗΣ ΓΕΥΣΕΙΣ</a><div class="underlineBorder3"></div></li>
 										</ul>
 									</li>
-									<li><a class="dropdown-item" href="#"><span class="dropdown-toggle">ΠΑΤΑΤΕΣ</span><div class="underlineBorder2"></div></a>
+									<li>
+										<a class="dropdown-item" href="#"><span class="dropdown-toggle">ΠΑΤΑΤΕΣ</span><div class="underlineBorder2"></div></a>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item subItem" href="#">MYDIBEL</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item subItem" href="#">LAMBWESTON</a><div class="underlineBorder3"></div></li>
@@ -82,7 +87,8 @@
 										</ul>
 									</li>
 									<li><a class="dropdown-item" href="#">ΛΑΔΙΑ</a><div class="underlineBorder2"></div></li>
-									<li><a class="dropdown-item dropdown-toggle" href="#">ΣΑΛΤΣΕΣ - ΣΑΛΑΤΕΣ</a><div class="underlineBorder2"></div>
+									<li>
+										<a class="dropdown-item dropdown-toggle" href="#">ΣΑΛΤΣΕΣ - ΣΑΛΑΤΕΣ</a><div class="underlineBorder2"></div>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item" href="#">PICCANTA</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΑΘΗΝΑΙΑ</a><div class="underlineBorder3"></div></li>
@@ -92,7 +98,8 @@
 									<li><a class="dropdown-item" href="#">ΓΑΛΑΚΤΟΚΟΜΙΚΑ</a><div class="underlineBorder2"></div></li>
 									<li><a class="dropdown-item" href="#">ΜΠΑΚΑΛΙΚΗ</a><div class="underlineBorder2"></div></li>
 									<li><a class="dropdown-item" href="#">ΨΩΜΙΑ - ΠΙΤΕΣ</a><div class="underlineBorder2"></div></li>
-									<li><a class="dropdown-item dropdown-toggle" href="#">ΖΩΟΤΡΟΦΕΣ</a><div class="underlineBorder2"></div>
+									<li>
+										<a class="dropdown-item dropdown-toggle" href="#">ΖΩΟΤΡΟΦΕΣ</a><div class="underlineBorder2"></div>
 										<ul class="dropdown-menu-sub">
 											<li><a class="dropdown-item" href="#">ΣΚΥΛΟΣ</a><div class="underlineBorder3"></div></li>
 											<li><a class="dropdown-item" href="#">ΓΑΤΑ</a><div class="underlineBorder3"></div></li>
@@ -109,11 +116,11 @@
 								<div class="underlineBorder"></div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+								<a class="nav-link" href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 								<div class="underlineBorder"></div>
 							</li>
 							<li class="nav-item getInTouch">
-								<a class="nav-link" href="#">GET IN TOUCH</a>
+								<a class="nav-link" href="#formApp">GET IN TOUCH</a>
 							</li>
 						</ul>
 					</div>
@@ -362,7 +369,7 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			<div class="formApplication">
+			<div id="formApp" class="formApplication">
 				<div class="formApplicationTitle"><span class="formApplicationFirstWord">GET IN </span><span class="formApplicationSecondWord">TOUCH</span></div>
 				<div class="formApplicationSubTitle">Επικοινωνήστε μαζί μας, συμπληρώνοντας τα στοιχεία σας στην παρακάτω φόρμα και εμείς θα επικοινωνήσουμε μαζί σας άμμεσα.</div>
 				<form class="formFirstPage">
@@ -387,18 +394,16 @@
 					</div>
 					<div class="quickMenu">
 						<ul>
-							<li class="active">ΑΡΧΙΚΗ</li>
-							<li>ΠΡΟΪΟΝΤΑ</li>
-							<li>BLOG</li>
-							<li>ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</li>
-							<li>ΕΠΙΚΟΙΝΩΝΙΑ</li>
+							<li class="active"><a href="index.html">ΑΡΧΙΚΗ</a></li>
+							<li><a href="blog.html">BLOG</a></li>
+							<li><a href="aboutus.html">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a></li>
+							<li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
 						</ul>
 					</div>
 					<div class="usefullLinks">
 						<ul>
-							<li>ΟΡΟΙ ΧΡΗΣΗΣ</li>
-							<li>ΥΠΟΣΤΗΡΙΞΗ ΠΕΛΑΤΩΝ</li>
-							<li>ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</li>
+							<li><a href="terms.html">ΟΡΟΙ ΧΡΗΣΗΣ</a></li>
+							<li><a href="faq.html">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a></li>
 						</ul>
 					</div>
 					<div class="newsLetterRegister">

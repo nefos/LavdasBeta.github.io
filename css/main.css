@@ -16,6 +16,9 @@
   @font-face {
 	font-family: 'brusher';
 	src: url('../fonts/Brusher.ttf'); /* IE9 Compat Modes */
+}
+html {
+	scroll-behavior: smooth;
   }
 
 body {
@@ -840,6 +843,12 @@ footer {
 	width:fit-content;
 	display:block;
 	cursor:pointer;
+}
+
+.footerContent div ul a{
+	color:#353535;
+	font-size:0.8vw;
+	text-decoration:none;
 }
 
 .footerContent div ul li.active {

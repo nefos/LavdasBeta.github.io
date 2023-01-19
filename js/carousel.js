@@ -83,3 +83,16 @@ nav_toggle_btn[0].addEventListener("click", function() {
 		document.querySelector("body").style.overflow = "hidden";
 	}
 });
+
+const products_toggle_btn = document.getElementById('products');
+
+products_toggle_btn[0].addEventListener("click", function() {
+	if ($(window).width() < 992) {
+		if (document.querySelector("body").style.overflow == "hidden") {
+			document.querySelector("body").style.overflow = "visible";
+		}
+		else if (document.querySelector("body").style.overflow == "visible") {
+			document.querySelector("body").style.overflow = "hidden";
+		}
+	 }
+});

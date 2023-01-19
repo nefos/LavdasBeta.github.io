@@ -73,3 +73,13 @@ if (auto_play == 1) {
 	setInterval(changeItem, interval_seconds);
 }
 
+const nav_toggle_btn = document.getElementsByClassName('navbar-toggler-icon');
+
+nav_toggle_btn[0].addEventListener("click", function() {
+	if (document.querySelector("body").style.overflow == "hidden") {
+		document.querySelector("body").style.overflow = "visible";
+	}
+	else if (document.querySelector("body").style.overflow == "visible") {
+		document.querySelector("body").style.overflow = "hidden";
+	}
+});

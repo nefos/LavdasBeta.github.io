@@ -49,9 +49,12 @@ body {
 }
 
 .navbar-brand {
+	position:absolute !important;
+	z-index:100;
 	width:10% !important;
 	padding:0 !important;
-	margin-left:2%;
+	left:2%;
+	top:0%;
 }
 
 .navbar-nav {
@@ -61,6 +64,7 @@ body {
 	vertical-align:middle;
 	display:table;
 	margin-left: auto;
+	margin-top:1%;
 }
 .nav-link {
 	color:white !important;

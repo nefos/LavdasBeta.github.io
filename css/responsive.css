@@ -138,6 +138,12 @@
     ul.dropdown-menu> li:hover > ul.dropdown-menu-sub {
         display:block;
     }
+
+    .carouselItem img {
+        height:100vh !important;
+        min-width:991px !important;
+        margin:0 calc((100% - 991px)/2);
+    }
 }
 /*END*/
 

@@ -150,13 +150,13 @@
         position:absolute;
         width:50%;
         left:25%;
-        top:35%;
+        top:calc(100vh - 70%);
         font-family: Raleway,sans-serif;
     }
 
     /*First Option*/
 .firstOption .titleCarousel {
-	font-size:4vw;
+	font-size:150%;
 	text-align:left;
 	color:white;
 	display:block;
@@ -165,7 +165,7 @@
 }
 
 .firstOption .descriptionCarousel {
-	font-size:5vw;
+	font-size:150%;
 	text-align:left;
 	font-weight:bold;
 	color:white;
@@ -174,14 +174,14 @@
 }
 
 .firstOption .textCarousel {
-	font-size:2vw;
+	font-size:100%;
 	text-align:center;
 	color:white;
 	display:block;
 }
 
 .firstOption .buttonCarousel {
-	font-size:2vw;
+	font-size:80%;
 	text-align:center;
 	color:white;
 	display:block;

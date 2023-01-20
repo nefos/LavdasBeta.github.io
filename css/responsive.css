@@ -14,6 +14,7 @@
         height:100vh;
         transition:none !important;
         overflow:scroll !important;
+        z-index:99;
     }
     .navbar-nav {
         display:block !important;
@@ -92,6 +93,49 @@
     }
 
     li.dropdown:hover > ul.dropdown-menu {
+        display:block;
+    }
+    .dropdown-item {
+        color:white !important;
+    }
+
+    .dropdown-item:hover {
+        background:none !important;
+    }
+
+    .dropdown-item:hover .underlineBorder3{
+        display:block;
+    }
+    .underlineBorder3 {
+        border-bottom:2px solid #8ac24c;
+        width:0;
+        display:block;
+        transition:all 0.2s ease-out;
+    }
+    
+    .dropdown-menu-sub li:hover .underlineBorder3 {
+        width:20%;
+        margin:0 auto;
+    }
+    .underlineBorder2 {
+        border-bottom:2px solid #8ac24c;
+        width:0;
+        display:block;
+        transition:all 0.2s ease-out;
+    }
+    .dropdown-menu li:hover .underlineBorder2 {
+        width:50%;
+        margin:0 auto;
+    }
+    
+    .centerSection img {
+        z-index:1;
+    }
+
+    ul.dropdown-menu-sub {
+        display:none;
+    }
+    ul.dropdown-menu> li:hover > ul.dropdown-menu-sub {
         display:block;
     }
 }

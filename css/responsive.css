@@ -1,5 +1,5 @@
 /* INDEX responsive */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 868px) {
     .carouselItem img {
         max-width:100% !important;
         height:100% !important;
@@ -210,34 +210,36 @@ background:#8ac24c
 .secondOption {
 	width:70% !important;
 	left:15% !important;
+    text-align:center !important;
 }
 .secondOption .titleCarousel {
-	font-size:2vw;
+	font-size:3vw;
 	text-align:left;
 	font-weight:bold;
 	color:white;
 	display:block;
 	font-family: 'FontFat';
-	width:40%;
+	width:100%;
+
 }
 
 .secondOption .descriptionCarousel {
-	font-size:2vw;
+	font-size:3vw;
 	text-align:left;
 	color:white;
 	display:block;
 	margin-bottom:1%;
 	font-weight: 100;
 	font-family: 'FontThin';
-	width:40%;
+	width:100%;
 }
 
 .secondOption .textCarousel {
-	font-size:1vw;
+	font-size:2vw;
 	text-align:left;
 	color:white;
 	display:block;
-	width:40%;
+	width:100%;
 }
 
 .secondOption .buttonCarousel {
@@ -260,14 +262,15 @@ background:#8ac24c
 }
 
 .secondOption .videoButton {
-	width:150px;
-	height:150px;
+	width:100px;
+	height:100px;
 	border-radius:50%;
 	text-align:center;
-	line-height:150px;
+	line-height:100px;
 	float:right;
-	margin-bottom:50%;
-	position:absolute;
+    display:block !important;
+	margin:0 calc((100% - 100px)/2) !important;
+	position:relative !important;
 	top:35%;
 	right:5%;
 	cursor:pointer;
@@ -275,12 +278,12 @@ background:#8ac24c
 }
 
 .secondOption .videoButton i{
-	width:100px;
-	height:100px;
+	width:80px;
+	height:80px;
 	border-radius:50%;
 	background-color:#8ac24c;
 	text-align:center;
-	line-height:100px;
+	line-height: 80px;
 	cursor:pointer;
 }
 .secondOption .videoButton i {

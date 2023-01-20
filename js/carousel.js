@@ -83,3 +83,16 @@ nav_toggle_btn[0].addEventListener("click", function() {
 		document.querySelector("body").style.overflow = "hidden";
 	}
 });
+
+window.addEventListener('resize', function(event) {
+	const element = document.querySelector('.navbar-collapse')
+	const cssObj = window.getComputedStyle(element, null);
+
+	let displayItem = cssObj.getPropertyValue("display");
+    if (window.innerWidth > 991) {
+		document.querySelector("body").style.overflowY = "visible";
+	}
+	if (window.innerWidth <= 991 && displayItem == "block") {
+		document.querySelector("body").style.overflowY = "hidden";
+	}
+}, true);

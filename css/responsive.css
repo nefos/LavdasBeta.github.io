@@ -13,7 +13,7 @@
         width:100%;
         height:100vh;
         transition:none !important;
-        overflow:scroll !important;
+        overflow-y:scroll !important;
         z-index:99;
     }
     .navbar-nav {

@@ -11,7 +11,7 @@
 	SETTINGS FOR YOUR CAROUSEL
 */
 /* 1 = Enable, 0 =  Disable (Setting for enable or disable the auto play */
-	auto_play = 1;
+	auto_play = 0;
 /* 1000 = 1s, Set the delay seconds */
 	interval_seconds = 7000;
 	

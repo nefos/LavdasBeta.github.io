@@ -1,9 +1,10 @@
 /* INDEX responsive */
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 991px) {
     .carouselItem img {
         max-width:100% !important;
         height:100% !important;
     }
+
     .navbar-collapse {
         background-color:rgb(44, 48, 49);
         position:absolute;

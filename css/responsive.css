@@ -215,7 +215,7 @@ background:#8ac24c
 }
 .secondOption .titleCarousel {
 	font-size:3vw;
-	text-align:left;
+	text-align:center;
 	font-weight:bold;
 	color:white;
 	display:block;
@@ -226,7 +226,7 @@ background:#8ac24c
 
 .secondOption .descriptionCarousel {
 	font-size:3vw;
-	text-align:left;
+	text-align:center;
 	color:white;
 	display:block;
 	margin-bottom:1%;
@@ -244,47 +244,45 @@ background:#8ac24c
 }
 
 .secondOption .buttonCarousel {
-	font-size:1vw;
+	font-size:1.5vw;
 	text-align:center;
 	color:white;
 	display:block;
-	margin-top:2%;
-	width:15%;
-	padding:1% 2%;
+	margin-top:2%;margin-bottom:2%;
+	width:25%;
+	padding:2% 2%;
 	border:2px solid #8ac24c;
 	border-radius:255px;
 	transition:all 0.5s ease-out;
 	cursor:pointer;
 	font-weight:bold;
-	font-size:1vw;
+    margin-left:auto;margin-right:auto;
 }
 .secondOption .buttonCarousel:hover {
 background:#8ac24c
 }
 
 .secondOption .videoButton {
-	width:100px;
-	height:100px;
+	width:10vw;
+	height:10vw;
 	border-radius:50%;
 	text-align:center;
-	line-height:100px;
-	float:right;
+	line-height:9.6vw;
+    float:unset;
     display:block !important;
-	margin:0 calc((100% - 100px)/2) !important;
-	position:relative !important;
-	top:35%;
-	right:5%;
+	margin:0 auto !important;
+	position:unset !important;
 	cursor:pointer;
 	border:1px solid white;
 }
 
 .secondOption .videoButton i{
-	width:80px;
-	height:80px;
+	width:8vw;
+	height:8vw;
 	border-radius:50%;
 	background-color:#8ac24c;
 	text-align:center;
-	line-height: 80px;
+	line-height: 8vw;
 	cursor:pointer;
 }
 .secondOption .videoButton i {

@@ -156,7 +156,7 @@
 
     /*First Option*/
 .firstOption .titleCarousel {
-	font-size:5vw;
+	font-size:4.5vw;
 	text-align:left;
 	color:white;
 	display:block;
@@ -165,7 +165,7 @@
 }
 
 .firstOption .descriptionCarousel {
-	font-size:5vw;
+	font-size:4.5vw;
 	text-align:left;
 	font-weight:bold;
 	color:white;
@@ -174,7 +174,7 @@
 }
 
 .firstOption .textCarousel {
-	font-size:2vw;
+	font-size:1.7vw;
 	text-align:center;
 	color:white;
 	display:block;
@@ -189,7 +189,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
-	padding:5% 8%;
+	padding:4% 8%;
 	border:2px solid #8ac24c;
 	border-radius:255px;
 	transition:all 0.5s ease-out;

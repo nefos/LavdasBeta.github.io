@@ -148,16 +148,16 @@
 
     .carouselHeader {
         position:absolute;
-        width:50%;
+        width:80%;
         height:50vh;
-        left:25%;
+        left:10%;
         top:25vh;
         font-family: Raleway,sans-serif;
     }
 
     /*First Option*/
 .firstOption .titleCarousel {
-	font-size:120%;
+	font-size:10vw;
 	text-align:center;
 	color:white;
 	display:block;
@@ -166,7 +166,7 @@
 }
 
 .firstOption .descriptionCarousel {
-	font-size:120%;
+	font-size:8vw;
 	text-align:center;
 	font-weight:bold;
 	color:white;
@@ -311,7 +311,7 @@ background:#8ac24c
 	
 	/*Third Option*/
 .thirdOption .titleCarousel {
-	font-size:2vw;
+	font-size:4vw;
 	text-align:center;
 	color:white;
 	display:block;
@@ -320,7 +320,7 @@ background:#8ac24c
 }
 
 .thirdOption .descriptionCarousel {
-	font-size:4vw;
+	font-size:5vw;
 	text-align:center;
 	font-weight:bold;
 	color:white;
@@ -343,8 +343,8 @@ background:#8ac24c
 	margin-top:2%;
 	margin-left:auto;
 	margin-right:auto;
-	width:25%;
-	padding:2% 5%;
+	width:50%;
+	padding:5% 5%;
 	border:2px solid #8ac24c;
 	border-radius:255px;
 	transition:all 0.5s ease-out;

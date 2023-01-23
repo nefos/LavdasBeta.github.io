@@ -266,11 +266,11 @@ background:#8ac24c
 }
 
 .secondOption .videoButton {
-	width:30%;
-	height:19%;
+	width:80px;
+	height:80px;
 	border-radius:50%;
 	text-align:center;
-	line-height:9vh;
+	line-height:77px;
     float:unset;
     display:block !important;
 	margin:0 auto !important;
@@ -280,12 +280,12 @@ background:#8ac24c
 }
 
 .secondOption .videoButton i{
-	width:80%;
-	height:80%;
+	width:60px;
+	height:60px;
 	border-radius:50%;
 	background-color:#8ac24c;
 	text-align:center;
-	line-height: 7.5vh;
+	line-height: 60px;
 	cursor:pointer;
 }
 .secondOption .videoButton i {

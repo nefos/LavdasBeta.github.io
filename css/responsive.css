@@ -801,6 +801,7 @@ background:#8ac24c;
     .footerContent div {
         width:80%;
         margin:0 auto;
+        padding:2%
     }
     
     .footerContent .logoFooter img{
@@ -815,6 +816,7 @@ background:#8ac24c;
     .footerContent div ul {
         list-style:none;
         text-align:center !important;
+        padding:0 !important;
     }
     
     .footerContent div ul li{

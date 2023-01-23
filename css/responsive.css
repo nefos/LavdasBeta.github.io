@@ -311,7 +311,7 @@ background:#8ac24c
 	
 	/*Third Option*/
 .thirdOption .titleCarousel {
-	font-size:4vw;
+	font-size:150%;
 	text-align:center;
 	color:white;
 	display:block;
@@ -320,7 +320,7 @@ background:#8ac24c
 }
 
 .thirdOption .descriptionCarousel {
-	font-size:5vw;
+	font-size:180%;
 	text-align:center;
 	font-weight:bold;
 	color:white;
@@ -336,7 +336,7 @@ background:#8ac24c
 }
 
 .thirdOption .buttonCarousel {
-	font-size:1vw;
+	font-size:60%;
 	text-align:center;
 	color:white;
 	display:block;
@@ -350,7 +350,6 @@ background:#8ac24c
 	transition:all 0.5s ease-out;
 	cursor:pointer;
 	font-weight:bold;
-	font-size:1vw;
 	
 }
 

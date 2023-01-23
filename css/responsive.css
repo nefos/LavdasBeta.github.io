@@ -151,7 +151,7 @@
         width:80%;
         height:50vh;
         left:10%;
-        top:25vh;
+        top:15vh;
         font-family: Raleway,sans-serif;
     }
 
@@ -253,7 +253,7 @@ background:#8ac24c
 	display:block;
 	margin-top:2%;margin-bottom:5%;
 	width:50%;
-	padding:5% 5%;
+	padding:4% 5%;
 	border:2px solid #8ac24c;
 	border-radius:255px;
 	transition:all 0.5s ease-out;
@@ -344,7 +344,7 @@ background:#8ac24c
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
-	padding:5% 5%;
+	padding:4% 5%;
 	border:2px solid #8ac24c;
 	border-radius:255px;
 	transition:all 0.5s ease-out;

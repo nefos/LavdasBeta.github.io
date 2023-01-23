@@ -837,7 +837,6 @@ footer {
 
 .footerContent div ul {
 	list-style:none;
-	
 }
 
 .footerContent div ul li{
@@ -872,6 +871,7 @@ footer {
 	text-align:center;
 	font-size:1vw;
 	margin-top:5% !important;
+	margin-bottom:5%;
 }
 
 .newsLetterRegister input[type=submit] {
@@ -912,6 +912,9 @@ footer {
 	text-align:left !important;
 	font-family: "FontFat";
 	margin-left:auto !important;
+}
+.companyDetails span:nth-child(2) {
+	font-size:0.8vw !important;
 }
 
 .openBook {

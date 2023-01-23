@@ -19,9 +19,10 @@
     }
     .navbar-nav {
         display:block !important;
-        margin-left:0;
-        float:left !important; 
-        margin-top:20% !important;
+        margin-bottom:0 !important;
+        margin-left:auto;margin-right:auto;
+        float:unset !important; 
+        margin-top:2% !important;
         
     }
     .navbar-nav li {
@@ -33,7 +34,7 @@
         margin-left:0;
     }
     .nav-link {
-        font-size:2.5vw !important;
+        font-size:80% !important;
     }
     .getInTouch {
         width:80% !important;
@@ -361,7 +362,546 @@ background:#8ac24c;
 	display:none;
 }
 	/*End of Third Option*/
+    .specialProductsTitleFirst {
+        font-family:'FontFat';
+        font-size:5vw;
+        color:black;
+    }
+    .specialProductsTitleSecond {
+        font-family:'FontThin';
+        font-size:5vw;
+        color:black;
+    }
+    
+    .specialProductsWords {
+        font-size:3vw;
+        color:#a6a6a6;
+        text-align:center;
+        display:block;
+        padding:0 4%;
+    }
+    
+    .specialProductsLogo {
+        width:100%;
+        text-align:center;
+        display:block;
+    }
+    
+    .specialProductsLogo img{
+        width:100%;
+    }
+    
+    .specialProductsProducts {
+        display:flex;
+        justify-content:space-between;
+        margin-top:1%;
+    }
+    
+    .specialProductsProduct {
+        width:50%;
+        margin-top:3%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        transition:all 0.2s ease-out;
+    }
+    
+    .specialProductsProduct:hover {
+        margin-top:0;
+    }
+    
+    .specialProductsProduct img {
+        width:80%;
+    }
+    
+    .specialProductsProduct span {
+        display:block;
+        font-weight:bold;
+        font-size:3vw;
+    }
 
+    .textBgS {
+        font-size:10vw;
+    }
+
+    .leftSection, .centerSection, .rightSection {
+        width:70%;
+        margin:0 auto;
+    }
+
+    .aboutUs {
+        display:block;
+    }
+
+    .leftSection {
+        text-align:center;
+        left:0;
+        position:relative;
+        z-index:1;
+    }
+
+    .rightSection {
+        text-align:center;
+        font-size:2vw;
+        font-weight:bold;
+        z-index:1;
+    }
+    .leftSectionTitleFirstSpan {
+        font-family:"FontFat";
+        font-size: 5vw;
+    }
+    
+    .leftSectionTitle {
+        margin-bottom:auto;
+        display:block;
+    }
+    
+    .leftSectionButton {
+        margin-top:5%;
+        margin-bottom:5%;
+        display:block;
+        padding:3% 5%;
+        border:2px solid #8ac24c;
+        background:none;
+        border-radius:255px;
+        transition:all 0.5s ease-out;
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        font-family:"FontFat";
+        font-size:2vw;
+        cursor:pointer;
+    }
+    .leftSectionTitleSecondSpan {
+        font-family:"FontThin";
+        font-size: 5vw;
+    }
+
+    .ourFacilitiesContent {
+        width:100%;
+        display:block;
+        background:#8ac24c;
+        padding:2% 2%;
+        text-align:center;
+        filter: drop-shadow(2px 0 0.2rem black);
+    }
+    .clients, .trucks, .products {
+        display:table;
+        width:70%;
+        margin-right:auto !important;
+    }
+    .facilitieIcon {
+        width:70%;
+    }
+    
+    .facilitieIcon img {
+        width:80%;
+    }
+    .facilitieNumber {
+        width:80%;
+        text-align:left;
+    }
+    
+    .facilitieNumber1 {
+        font-size:4vw;
+        font-weight:bold;
+    }
+    .facilitieNumber2 {
+        font-size:4vw;
+        font-weight:bold;
+    }
+
+    .deliveryContentTitleFirst {
+        font-size:5vw;
+        font-family:"FontFat";
+    }
+    
+    .deliveryContentTitleSecond {
+        font-size:5vw;
+        font-family:"FontThin";
+    }
+
+    .deliveryContentMap img {
+        width:100%;
+    }
+
+    .deliveryContentWords {
+        display:block;
+        font-size:3vw;
+        color:#a6a6a6;
+        width:70%;
+        margin:0 auto;
+    }
+
+    .recipyContent {
+        display:block;
+        width:100%;
+        position:relative;
+        text-align:center;
+    }
+    
+    .recipyContent img{
+        width:95%;
+    }
+    
+    .recipyFirstWord {
+        color:#8ac24c;
+        font-family: "FontFat";
+        font-size:2vw;
+    }
+    
+    .recipySecondWord {
+        color:#8ac24c;
+        font-family: "FontThin";
+        font-size:2vw;
+    }
+    
+    .recipeContentWords {
+        text-align:left;
+        width:100%;
+        display:block;
+        line-height:100% !important;
+    }
+    
+    .recipeContent {
+        position:absolute;
+        top:15%;
+        left:5%;
+    }
+    
+    .recipeContentWordsMore {
+        text-align:left;
+        width:95%;
+        font-size:2vw;
+        color:#c8c8c8;
+        display:block;
+    }
+    
+    .recipeButton {
+        margin-top:2%;
+        display:block;
+        padding:1% 2%;
+        border:2px solid #8ac24c;
+        background:none;
+        border-radius:255px;
+        transition:all 0.5s ease-out;
+        width:30%;
+        margin-left:auto;margin-right: auto;
+        text-align:center;
+        font-family:"FontFat";
+        font-size:1vw;
+        cursor:pointer;
+        color:#c8c8c8
+    }
+
+    .blogPosts {
+        padding:3% 5%;
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+    
+    .blogPostsFirstWord {
+        font-size:5vw;
+        font-family:"FontFat";
+    }
+    
+    .blogPostsSecondWord {
+        font-size:5vw;
+        font-family:"FontThin";
+    }
+    .blogPostsBoxes {
+        display:block;
+        justify-content:space-between;
+        padding:1% 15%;
+    }
+    
+    .blogPost {
+        width:70%;
+        text-align:center;
+        margin:2% auto;
+        position:relative;
+        overflow:hidden;
+        height:100%;
+    }
+    
+    .blogPostBox {
+        width:90%;
+        margin-top:-10%;
+        margin-left:auto;margin-right:auto;
+        background:white;
+        padding:5% 5%;
+        display:block;
+        transition:all 0.5s ease-out;
+        z-index:1;
+        position:relative;
+    }
+    
+    .blogPost:hover .blogPostBox {
+        margin-top:-15%;
+    }
+    
+    .blogPostImg {
+        width:100%;
+        display:block;
+        transition:all 0.5s ease-out;
+        overflow:hidden;
+    }
+    
+    
+    
+    .blogTitle {
+        font-size:3vw;
+        color:#ce8136;
+        font-family:"FontFat";
+        display:block;
+    }
+    
+    .blogSubTitle {
+        font-size:2vw;
+        color:black;
+        font-weight:bold;
+        font-family:"FontRegular";
+        display:block;
+    }
+    
+    .blogEtc {
+        font-size:2vw;
+        color:#c6c6c6;
+        font-family:"FontRegular";
+        display:block;
+    }
+    
+    .blogButton {
+        margin-top:5%;
+        display:block;
+        padding:4% 1%;
+        border:2px solid #ce8136;
+        background:none;
+        border-radius:255px;
+        transition:all 0.5s ease-out;
+        margin-left:auto;margin-right:auto;
+        width:70%;
+        text-align:center;
+        font-family:"FontRegular";
+        font-weight:bold;
+        font-size:1.5vw !important;
+        cursor:pointer;
+        color:#c8c8c8
+    }
+    
+
+    .partner img{
+        width:80%;
+        margin:auto auto;
+    }
+
+    .formApplication {
+        display:block;
+        padding:5% 2%;
+        background:#2c3031;
+        text-align:center;
+    }
+    
+    .formApplicationFirstWord {
+        font-size:5vw;
+        font-family:"FontFat";
+        color:white;
+    }
+    
+    .formApplicationSecondWord {
+        font-size:5vw;
+        font-family:"FontThin";
+        color:white;
+    }
+    
+    .formApplicationSubTitle {
+        font-size:4vw;
+        color:#c6c6c6;
+    }
+    
+    .formFirstPage {
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .formFirstPage input {
+        display:block;
+        color:#ce8136;
+        -webkit-appearance: none !important;
+    }
+    
+    .formFirstPage input:focus, .formFirstPage textarea:focus  {
+        outline:0;
+    }
+    
+    .formFirstPage input[type=text],  .formFirstPage input[type=tel],  .formFirstPage input[type=email]{
+        width:80%;
+        display:inline-block;
+        margin:2% auto;
+        background:#2c3031;
+        border:0;
+        border-bottom:1px solid white;
+        line-height:50px;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 0;
+    }
+    
+    .formFirstPage input[type=submit],  textarea{
+        display:block;
+        -webkit-appearance: none !important;
+    }
+    
+    textarea {
+        width:84%;
+        height:200px;
+        overflow-x:hidden;
+        resize:none;
+        margin:1% auto;
+        background:#2c3031;
+        border:0;
+        border-bottom:1px solid white;
+        line-height:20px;
+        border-radius:0 !important;
+        color:#ce8136;
+        -webkit-appearance: none;
+    }
+    
+    .formFirstPage input[type=submit] {
+        width:84%;
+        margin:4% auto;
+        background:none;
+        font-family:"FontFat";
+        padding:4% 5%;
+        border-radius:255px;
+        text-align:center;
+        font-size:2vw;
+        border:0.5px solid #ce8136;
+        color:white;
+        transition:all 0.5s ease-out;
+    }
+    
+    .formFirstPage input[type=submit]:hover {
+        background:#ce8136;
+        color:black;
+    }
+    
+    footer {
+        display:block;
+        width:100%;
+    }
+    
+    .footerContent {
+        padding:unset;
+        display:block;
+    }
+    
+    .footerContent div {
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .footerContent .logoFooter img{
+        width:50%;
+        margin:0 auto;
+    }
+    
+    .logoFooter {
+        text-align:center;
+    }
+    
+    .footerContent div ul {
+        list-style:none;
+        text-align:center !important;
+    }
+    
+    .footerContent div ul li{
+        color:#353535;
+        font-size:2vw;
+        line-height:25px;
+        width:100%;
+        display:block;
+        cursor:pointer;
+        text-align:center;
+        margin:0 auto;
+    }
+    
+    .footerContent div ul a{
+        color:#353535;
+        font-size:3vw;
+        text-decoration:none;
+        text-align:center;
+        margin:0 auto;
+        display:block;
+        width:100% !important;
+    }
+    
+    .footerContent div ul li.active {
+        border-bottom:0;
+    }
+    
+    .footerContent div ul li:hover {
+        border-bottom:0.5px solid #8ac24c;
+        color:#828282;
+    }
+    
+    .companyDetails span:nth-child(2) {
+        font-size:3vw !important;
+    }
+    .companyDetails {
+        display:block;
+        width:100% !important;
+        color:#353535;
+        text-align:center;
+        font-size:3vw;
+        margin-top:5% !important;
+    }
+    
+    .newsLetterRegister input[type=submit] {
+        width:90%;
+        margin:4% 5%;
+        background:none;
+        font-family:"FontFat";
+        padding:5% 5%;
+        border-radius:255px;
+        text-align:center;
+        font-size:2vw;
+        border:0.5px solid #ce8136;
+        color:black;
+        transition:all 0.5s ease-out;
+        -webkit-appearance: none !important;
+    }
+    
+    .newsLetterRegister input[type=submit]:hover {
+        background:#ce8136;
+        color:white;
+    }
+    
+    .newsLetterRegister input[type=email]{
+        width:100%;
+        display:inline-block;
+        margin:2% 2%;
+        background:white;
+        border:0;
+        border-bottom:1px solid #828282;
+        line-height:50px;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 0;
+    }
+    .newsLetterRegister input[type=email]:focus {
+        outline:none;
+    }
+    
+    .nlTitle {
+        font-size:3vw;
+        display:block;
+        text-align:center !important;
+        font-family: "FontFat";
+        margin-left:auto !important;
+    }
+    
 }
 /*END*/
 
